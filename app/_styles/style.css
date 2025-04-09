@@ -1,0 +1,10 @@
+.flex-daypicker .rdp-months {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Optional: adds space between the two months */
+}
+
+/* Ensure the component doesn't overflow on smaller screens */
+.flex-daypicker {
+  max-width: 100%;
+}
